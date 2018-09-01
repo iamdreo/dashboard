@@ -8,7 +8,5 @@ app.use(function(req, res, next) {
 
 app.use(express.static('./'));
 
-app.listen(81, function() {
-    console.log("serving static on 81")
-});
+app.listen(process.env.PORT || 8080, () => console.log("All is ok on 8080"));
     
