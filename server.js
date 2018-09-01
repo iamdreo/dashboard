@@ -6,7 +6,7 @@ app.use(function(req, res, next) {
     next(); //pass control to the next handler
 });
 
-app.use(express.static("./"));
+app.use(express.static('examples'));
 
 app.listen(81, function() {
     console.log("serving static on 81")
