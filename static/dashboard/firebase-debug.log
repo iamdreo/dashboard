@@ -1,0 +1,33 @@
+[debug] [2018-09-01T13:50:34.889Z] ----------------------------------------------------------------------
+[debug] [2018-09-01T13:50:34.889Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dre\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-09-01T13:50:34.905Z] CLI Version:   3.18.4
+[debug] [2018-09-01T13:50:34.905Z] Platform:      win32
+[debug] [2018-09-01T13:50:34.905Z] Node Version:  v9.7.0
+[debug] [2018-09-01T13:50:34.905Z] Time:          Sat Sep 01 2018 14:50:34 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-09-01T13:50:34.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-01T13:50:34.921Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-01T13:50:34.921Z] > authorizing via signed-in user
+[debug] [2018-09-01T13:50:34.921Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-01T13:50:34.921Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/yidtFG-lwC3jrlndzFMx2SSvOerD_spk3FTaCXjE4Rd2HvLk5qDb14S18ilxB7Hb',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Sep 01 2018 14:50:34 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-09-01T13:50:35.999Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-01T13:50:36.154Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/newapp-51caa  
+  
+ Sat Sep 01 2018 14:50:36 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-09-01T13:50:37.370Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-01T13:50:37.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/newapp-51caa/tokens  
+  
+ Sat Sep 01 2018 14:50:37 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-09-01T13:50:38.262Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-01T13:51:57.951Z] TypeError: Cannot read property 'wanted' of undefined
+    at C:\Users\Dre\AppData\Roaming\npm\node_modules\firebase-tools\lib\checkFirebaseSDKVersion.js:43:47
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+[error] 
+[error] Error: An unexpected error has occurred.
